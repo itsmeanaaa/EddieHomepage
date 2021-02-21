@@ -50,6 +50,9 @@ nav {
     padding: 0px 40px 0px 0px;
     z-index: 2;
 }
+li:hover{
+    text-decoration: underline;
+}
 .nav-links a {
     color: rgb(226, 226, 226);
     text-decoration: none;
@@ -243,8 +246,8 @@ div.message>button{
 }
 div.message>button:hover{
     color:#2D9CDB;
-    background-color: white;
-    border:3px solid #2D9CDB;
+    background-color: #F2F2F2;
+    border:2px solid #2D9CDB;
 }
 div.second>h1{
     margin-left: 3%;
@@ -261,8 +264,10 @@ div.second>h1{
     min-width: 300px;
     max-height: 422px;
     min-height: 320px;
-    border: 2px solid black; 
     border-radius: 20%;
+}
+.first:hover{
+        box-shadow: 5px 10px #828282;
 }
 .uiicon,.backicon,.fronticon{
     position: relative;
@@ -309,7 +314,7 @@ div.first>button{
 div.first>button:hover{
     color:#2D9CDB;
     background-color: white;
-    border:3px solid #2D9CDB;
+    border:2px solid #2D9CDB;
 }
 div.three{
     margin: 20% 3% 0px 3%;
