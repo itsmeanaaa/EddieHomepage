@@ -60,15 +60,13 @@ li:hover{
     font-weight: bold;
      font-size: 2rem;
 }
-
 .burger {
     display: none;
 }
-
 .burger div {
     width: 25px;
     height: 3px;
-    background-color: rgb(226, 226, 226);
+    background-color: black;
     margin: 5px;
     transition: all 0.3s ease;
 }
@@ -127,10 +125,8 @@ li:hover{
         cursor: pointer;
         float:right;
         margin-right: -100px;
-    }
-  
+    } 
 }
-
 .nav-active {
         transform: translateX(0%);
 }
@@ -356,7 +352,166 @@ div.onboard>h2,div.smarthome>h2{
     font-family: 'Poppins', sans-serif;
     color: #333333;
 }
-
+div.three>p{
+     font-size: calc(1rem + 0.5vw);
+     color:#2D9CDB;
+    font-family: 'Poppins', sans-serif;
+    float: right;
+}
+div.three>p:hover{
+     color:#2D9CDB;
+     border: 2px solid #2D9CDB;
+     padding: 10px;
+}
+.four{
+    margin: 15% 0px 20% 0px;
+    gap:18%;
+}
+.info{
+    max-width: 40%;
+    min-width: 20%;
+    margin: 10% 0% 0% 10%;
+}
+div.info  p {
+    font-family: 'Poppins', sans-serif;
+    color: #4F4F4F;
+     font-size: calc(0.5rem + 0.5vw);
+}
+div.info>h6{
+     font-size: calc(1rem + 0.5vw);
+    font-family: 'Poppins', sans-serif;
+    color: #EB5757;
+}
+div.info>h5{
+     font-size: calc(2rem + 1.2vw);
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+    max-width: 300px;
+    min-width: 190px;
+}
+.people{
+    display: flex;
+    gap:20px;
+}
+.innerpep{
+    display: flex;
+    flex-direction: column;
+}
+.diffpic{
+    max-width: 180px;
+    min-width: 55px;
+    max-height: 180px;
+    min-height: 55px;
+    border-radius: 20px;
+}
+.regpic{
+    max-width: 270px;
+    min-width: 125px;
+    max-height: 270px;
+    min-height: 125px;
+    border-radius: 20px;
+}
+div.people>img{
+    margin-top: 80px;
+    max-width: 270px;
+    min-width: 125px;
+    max-height: 250px;
+    min-height: 145px;
+    border-radius: 20px;
+}
+div.testimonial>p{
+    margin-left:10%;       
+    font-size: calc(1rem + 1vw);
+    font-family: 'Poppins', sans-serif;
+    max-width: 600px;
+    min-width: 150px;
+}
+div.innertest>img{
+    margin: 20px 0px 0px 10%;
+    max-width: 80px;
+    min-width: 65px;
+    max-height: 80px;
+    min-height: 65px;
+    border-radius: 20px;
+}
+.innertest{
+    display: flex;
+    gap:20px;
+}
+.innerinner{
+    display: flex;
+    flex-direction: column;
+}
+div.innerinner>h6{
+    margin-top: 15px;
+    font-size: calc(1rem + 0.5vw);
+    font-family: 'Poppins', sans-serif;
+    color:  #333333;
+}
+div.innerinner>p{
+    margin-top: 5px;
+    font-size: calc(1rem + 0.5vw);
+    font-family: 'Poppins', sans-serif;
+    color: #828282;
+}
+.footer{
+    margin-top: 20%;
+    background-color: #100E1D;
+    padding: 50px; 
+}
+.innerfoot{
+    justify-content: space-around;
+}
+div.footer>p{
+    margin-top: 50px;
+    color: #F2F2F2;
+    text-align: center;
+    font-size: calc(1rem + 1vw);
+}
+div.one>p{
+     font-size: calc(1rem + 0.5vw);
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+div.two>p{
+     font-size: calc(1rem + 2vw);
+     font-family: 'Heebo', sans-serif;
+     font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+div.message2>input{
+     max-width: 250px;
+    min-width: 190px;
+    max-height: 57px;
+    min-height: 47px;
+    border-radius: 20px;
+    border: none;
+    background-color:#F2F2F2;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 20px;
+     font-size: calc(1rem + 0.5vw);
+}
+.join{
+    margin: 4px 0px 0px -100px;
+    max-width: 94px;
+    min-width: 90px;
+    max-height: 50px;
+    min-height: 39px;
+    border: none;
+     position: absolute;
+    background-color: #2D9CDB;
+    border-radius: 12px;
+    color:white;
+    font-size: calc(1rem + 0.5vw);
+    font-family: 'Poppins', sans-serif;
+}
+.join:hover{
+    color:#2D9CDB;
+    background-color: #F2F2F2;
+    border:2px solid #2D9CDB;
+}
 @media (min-width: 1249px){
     .collection{
         display: flex;
@@ -365,6 +520,12 @@ div.onboard>h2,div.smarthome>h2{
     .services{
       display: flex;
       justify-content: space-between;
+    }
+    .four{
+    display: flex;
+    }
+    .innerfoot{
+    display: flex;
     }
 }
 @media  (min-width: 320px) and (max-width: 1248px){
@@ -377,5 +538,14 @@ div.onboard>h2,div.smarthome>h2{
      display: inline-flex;
      flex-wrap: wrap;
      gap: 100px;
+    }
+    .four{
+    display: flex;
+    flex-direction: column;
+    }
+    .innerfoot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     }
 }
