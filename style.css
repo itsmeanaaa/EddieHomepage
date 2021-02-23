@@ -512,6 +512,18 @@ div.message2>input{
     background-color: #F2F2F2;
     border:2px solid #2D9CDB;
 }
+div.two>div{
+    display: flex;
+    gap: 10px;
+}
+div.innertwo>img{
+   max-width: 40px;
+    min-width: 25px;
+    max-height: 40px;
+    min-height: 25px; 
+    border-radius: 0px;
+    margin-bottom: 20px;
+}
 @media (min-width: 1249px){
     .collection{
         display: flex;
